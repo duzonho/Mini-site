@@ -1,52 +1,72 @@
  /* reset de estilos - estamos removendo todos os estilos padroes do navegador*/ 
-*{
- 
-margin: 0;
-padding: 0;
 
-text-decoration: none;
+ body{
+    background-color: rgb(24, 24, 24);
+    color: #fdfdfd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+ height: 1000px;
+ }
+
+ a{
+    text-decoration: none;
+    color: #fdfdfd;
+    font-size: 20px;
+
+ }
+
+ h1{
+    text-align: center;
+ }
+    nav a:hover {
+    color: rgb(126, 126, 126);
+}
+
+li{
+    background-color: rgb(12, 12, 12);
 list-style: none;
-}
-
-body{
-font-family: "Roboto Mono", monospace;
-background-color: rgb(240, 240, 240);
-color: rgb(54, 70, 85);
-
-height: 2000px;
-}
-
-header{
-    background-color: bisque;
-    position: sticky;
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-height: 110px;
-}
-
-.container{
-display: flex;
 align-items: center;
-justify-content: space-between;
-width: 100%;
-max-width: 1300px;
+margin: 15px;
 }
 
-header a{
-    color: rgb(240, 136, 10);
+li{
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px 20px;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
+.âncora-footer{
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+    color:  rgb(126, 126, 126);;
 }
+/* fim do index */
 
-main{
-  
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer img{
+    width: 30px;
+    height: 30px;
+ }
 
 
