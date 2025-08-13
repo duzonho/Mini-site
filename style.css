@@ -5,11 +5,48 @@ margin: 0;
 padding: 0;
 
 text-decoration: none;
+list-style: none;
 }
 
 body{
 font-family: "Roboto Mono", monospace;
-background-color: rgb(0, 0, 0);
-color: aliceblue;
+background-color: rgb(240, 240, 240);
+color: rgb(54, 70, 85);
 
+height: 2000px;
 }
+
+header{
+    background-color: bisque;
+    position: sticky;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 110px;
+}
+
+.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+max-width: 1300px;
+}
+
+header a{
+    color: rgb(240, 136, 10);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+main{
+  
+}
+
+
